@@ -33,5 +33,5 @@ npm run dev
 ## Connect
 
 - GitHub: [@anuragyadav7905](https://github.com/anuragyadav7905)
-- LinkedIn: [anuragyadav7905](https://linkedin.com/in/anuragyadav7905)
+- LinkedIn: [anurag007](https://www.linkedin.com/in/anurag007)
 - Email: anuragyadav22211@gmail.com

@@ -16,8 +16,8 @@ const CONTACTS = [
   {
     icon: Linkedin,
     label: 'LinkedIn',
-    handle: 'anuragyadav7905',
-    href: 'https://linkedin.com/in/anuragyadav7905',
+    handle: 'anurag007',
+    href: 'https://www.linkedin.com/in/anurag007',
     desc: 'Connect with me professionally and see my experience',
     border: 'hover:border-blue-400/35',
     iconColor: 'text-blue-400',

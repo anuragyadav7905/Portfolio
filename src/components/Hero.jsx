@@ -5,7 +5,7 @@ const ROLES = ['Full-Stack Developer', 'Android Developer', 'Data Enthusiast'];
 
 const SOCIALS = [
   { icon: Github, href: 'https://github.com/anuragyadav7905', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com/in/anuragyadav7905', label: 'LinkedIn' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/anurag007', label: 'LinkedIn' },
   { icon: Mail, href: 'mailto:anuragyadav22211@gmail.com', label: 'Email' },
 ];
 
