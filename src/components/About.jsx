@@ -71,14 +71,17 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <p className="text-lg text-slate-300 leading-relaxed">
-              I'm <span className="text-white font-semibold">Anurag Singh Yadav</span> — a full-stack developer, Android developer, and data enthusiast who loves working across the entire stack, from mobile experiences to AI-powered web platforms.
+            <p className="text-2xl md:text-3xl font-bold text-white leading-snug">
+              I don't just write code —{' '}
+              <span className="gradient-text">I ship products.</span>
+            </p>
+            <p className="text-slate-300 text-lg leading-relaxed">
+              Full-stack and Android dev who turns ideas into things people actually use. What drives me isn't the tech — it's the moment something I built solves a real problem for a real person.
             </p>
             <p className="text-slate-400 leading-relaxed">
-              I bring a <span className="text-indigo-300">builder's mindset</span> to everything: ship something real, learn fast, iterate hard. Whether it's an OCR + AI answer app, a real-time ocean visualization system, or a developer productivity tool — I focus on projects that solve genuine problems.
-            </p>
-            <p className="text-slate-400 leading-relaxed">
-              Currently exploring <span className="text-cyan-400">on-device AI</span> with Gemma, agentic Android development, and designing backend systems that scale without drama.
+              Currently obsessing over{' '}
+              <span className="text-cyan-400 font-medium">on-device AI</span>.
+              {' '}The next wave of apps won't need the cloud — and I want to build them.
             </p>
 
             {/* Tags */}
