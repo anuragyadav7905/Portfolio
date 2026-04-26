@@ -6,7 +6,7 @@ const ROLES = ['Full-Stack Developer', 'Android Developer', 'Data Enthusiast'];
 const SOCIALS = [
   { icon: Github, href: 'https://github.com/anuragyadav7905', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com/in/anuragyadav7905', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:anuragyadav7905@gmail.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:anuragyadav22211@gmail.com', label: 'Email' },
 ];
 
 const fadeUp = (delay = 0) => ({

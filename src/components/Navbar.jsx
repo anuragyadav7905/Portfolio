@@ -49,7 +49,7 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="mailto:anuragyadav7905@gmail.com"
+          href="mailto:anuragyadav22211@gmail.com"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold transition-all duration-200 hover:shadow-lg hover:shadow-indigo-500/25"
         >
           Hire Me
@@ -87,7 +87,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="mailto:anuragyadav7905@gmail.com"
+                href="mailto:anuragyadav22211@gmail.com"
                 className="mt-2 px-5 py-2.5 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold text-center transition-colors"
               >
                 Hire Me

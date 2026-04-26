@@ -27,8 +27,8 @@ const CONTACTS = [
   {
     icon: Mail,
     label: 'Email',
-    handle: 'anuragyadav7905@gmail.com',
-    href: 'mailto:anuragyadav7905@gmail.com',
+    handle: 'anuragyadav22211@gmail.com',
+    href: 'mailto:anuragyadav22211@gmail.com',
     desc: 'Best for project inquiries, collaborations, and opportunities',
     border: 'hover:border-indigo-400/35',
     iconColor: 'text-indigo-400',
@@ -68,7 +68,7 @@ export default function Contact() {
           className="text-center my-12"
         >
           <a
-            href="mailto:anuragyadav7905@gmail.com"
+            href="mailto:anuragyadav22211@gmail.com"
             className="inline-flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white text-lg font-bold transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/25 hover:-translate-y-1 active:translate-y-0 group"
           >
             <Send size={20} className="group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />

@@ -34,4 +34,4 @@ npm run dev
 
 - GitHub: [@anuragyadav7905](https://github.com/anuragyadav7905)
 - LinkedIn: [anuragyadav7905](https://linkedin.com/in/anuragyadav7905)
-- Email: anuragyadav7905@gmail.com
+- Email: anuragyadav22211@gmail.com
