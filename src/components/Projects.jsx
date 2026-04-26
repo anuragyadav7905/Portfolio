@@ -5,16 +5,28 @@ const GITHUB = 'https://github.com/anuragyadav7905';
 
 const PROJECTS = [
   {
-    name: 'cuemathinterview.ai',
-    slug: 'cuemathinterview.ai',
-    live: 'https://cuemathinterview-ai.vercel.app',
-    desc: 'AI-powered tutor screening platform for Cuemath — virtual interview system with an AI student bot that evaluates teaching quality in real time.',
-    tags: ['JavaScript', 'AI', 'React', 'Vercel'],
-    category: 'Web · AI',
+    name: 'AInterview',
+    slug: 'AInterview',
+    live: 'https://ainterview-iota.vercel.app',
+    desc: 'Interview preparation platform with curated resources, practice questions, and progress tracking for placement-ready developers.',
+    tags: ['JavaScript', 'React', 'Web'],
+    category: 'Web',
     featured: true,
-    gradient: 'from-purple-600/20 via-violet-600/15 to-pink-600/10',
-    border: 'border-purple-500/25',
-    accent: 'text-purple-400',
+    gradient: 'from-indigo-600/20 via-purple-600/15 to-violet-600/10',
+    border: 'border-indigo-500/25',
+    accent: 'text-indigo-400',
+  },
+  {
+    name: 'DevSpace',
+    slug: 'DevSpace',
+    live: 'https://dev-space-kohl.vercel.app',
+    desc: 'Personal developer workspace for organizing projects, tools, and resources in one productivity-focused environment.',
+    tags: ['JavaScript', 'Productivity', 'Web'],
+    category: 'Web',
+    featured: true,
+    gradient: 'from-orange-600/20 via-amber-600/15 to-yellow-600/10',
+    border: 'border-orange-500/25',
+    accent: 'text-orange-400',
   },
   {
     name: 'Ocean Intelligence',
@@ -23,9 +35,9 @@ const PROJECTS = [
     desc: 'AI-powered ocean intelligence system with real-time data visualization. React frontend with a Flask AI/ML backend pipeline.',
     tags: ['React', 'Flask', 'Python', 'AI', 'Data Viz'],
     category: 'Web · AI',
-    featured: true,
-    gradient: 'from-cyan-600/20 via-blue-600/15 to-indigo-600/10',
-    border: 'border-cyan-500/25',
+    featured: false,
+    gradient: 'from-cyan-600/15 to-blue-600/10',
+    border: 'border-cyan-500/20',
     accent: 'text-cyan-400',
   },
   {
@@ -41,28 +53,16 @@ const PROJECTS = [
     accent: 'text-blue-400',
   },
   {
-    name: 'AInterview',
-    slug: 'AInterview',
-    live: 'https://ainterview-iota.vercel.app',
-    desc: 'Interview preparation platform with curated resources, practice questions, and progress tracking for placement-ready developers.',
-    tags: ['JavaScript', 'React', 'Web'],
-    category: 'Web',
+    name: 'cuemathinterview.ai',
+    slug: 'cuemathinterview.ai',
+    live: 'https://cuemathinterview-ai.vercel.app',
+    desc: 'AI-powered tutor screening platform for Cuemath — virtual interview system with an AI student bot that evaluates teaching quality in real time.',
+    tags: ['JavaScript', 'AI', 'React', 'Vercel'],
+    category: 'Web · AI',
     featured: false,
-    gradient: 'from-indigo-600/15 to-purple-600/10',
-    border: 'border-indigo-500/20',
-    accent: 'text-indigo-400',
-  },
-  {
-    name: 'DevSpace',
-    slug: 'DevSpace',
-    live: 'https://dev-space-kohl.vercel.app',
-    desc: 'Personal developer workspace for organizing projects, tools, and resources in one productivity-focused environment.',
-    tags: ['JavaScript', 'Productivity', 'Web'],
-    category: 'Web',
-    featured: false,
-    gradient: 'from-orange-600/15 to-amber-600/10',
-    border: 'border-orange-500/20',
-    accent: 'text-orange-400',
+    gradient: 'from-purple-600/15 to-pink-600/10',
+    border: 'border-purple-500/20',
+    accent: 'text-purple-400',
   },
   {
     name: 'todo',
@@ -146,7 +146,6 @@ function ProjectCard({ project, index, featured }) {
         {project.desc}
       </p>
 
-      {/* Tags */}
       <div className="flex flex-wrap gap-1.5">
         {project.tags.map((tag) => (
           <span
@@ -157,12 +156,6 @@ function ProjectCard({ project, index, featured }) {
           </span>
         ))}
       </div>
-
-      {/* Live badge */}
-      {project.live && (
-        <div className="absolute top-4 right-4 flex items-center gap-1.5 opacity-0 group-hover:opacity-100">
-        </div>
-      )}
     </motion.div>
   );
 }
@@ -177,7 +170,6 @@ export default function Projects() {
 
       <div className="relative max-w-6xl mx-auto">
 
-        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -204,7 +196,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* GitHub CTA */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
